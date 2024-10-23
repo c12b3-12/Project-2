@@ -1,0 +1,96 @@
+
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    z-index: auto;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    text-align: center;
+}
+
+
+header {
+    background-color: rgba(51, 51, 51, 0); 
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 9999;
+}
+
+
+
+header .logo h1 {
+    font-size: 24px;
+    margin-left: 20px;
+    font-weight: 700;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    margin-right: 20px;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.hero {
+    background-color: #000;
+    color: white;
+    padding: 600px 0 0 0;
+    background-image: url(https://solaceboats.com/wp-content/uploads/2023/10/home-19-10-3.png); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.hero h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+
+
+footer {
+    background-color: rgba(51, 51, 51, 3);     color: white;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 9999;
+}
